@@ -1,0 +1,57 @@
+body {
+    background-color: 
+    #140014;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about-us {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.094);
+    padding: 20px 50px;
+    gap: 40px;
+    border: solid 1px rgba(255, 255, 255, 0.358);
+    border-radius: 30px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.button {
+    padding: 20px 50px;
+}
+
+.head {
+    background: linear-gradient(to right, #2277F3,#0180A5 );
+    border-radius: 30px;
+}
+
+.coins {
+    position: absolute;   
+}
+
+.acoin{
+    top: 100px;
+    left: 646px;
+    height: ;
+    width: auto;
+}
+
+.coins > img {
+    width: 100%;
+}
