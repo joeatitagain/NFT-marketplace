@@ -166,14 +166,42 @@ body {
     display: grid;
     width: 250px;
     height: 250px;
-    border-radius: 45px;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 3fr;
-    gap: 7px;
+    gap: 5px;
+
 }
 
 .create-steps {
     display: flex;
-    justify-content: space-around;
-    padding: 30px 100px;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.image,.header {
+    display: flex;
+    background:  #FFFFFF29;
+    align-items: center;
+}
+
+.image{
+    border-top-left-radius: 35px;
+    justify-content: center;
+}
+
+.header {
+    border-top-right-radius: 35px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.body {
+    grid-column: span 2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 40%, rgba(20, 0, 20, 0.16) 100%);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius:35px;
+    text-align: left;
+    padding: 10px 30px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
 }
