@@ -81,6 +81,13 @@ body {
     padding: 5px 150px;
 }
 
+.content-one > h1 > span, .NFT-count p {
+    font-weight: bold;
+    background: linear-gradient(to right,#2277F3, #0180A5);
+    background-clip: text;
+    color: transparent;
+}
+
 .content-one p {
     font-size: 19px;
     font-weight: 300;
@@ -94,4 +101,79 @@ body {
     margin: auto;
     width: 10.5%;
     text-align: center;
+}
+
+.NFT-bar {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.NFT-bar .Ellipse {
+    position: absolute;
+    z-index: 10;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.NFT-bar .nfts {
+    width: 73%;
+}
+
+.NFT-count {
+    color: white;
+    display: flex;
+    margin: 50px 300px;
+    text-align: center;
+    gap: 10%;
+}
+
+.NFT-count p {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.NFT-count h5 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.NFT-count > div {
+    width: 190px;
+}
+
+.create {
+    color: white;
+    text-align: center;
+}
+
+.create h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 70px;
+}
+
+.create-text h5 {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 1px 290px;
+    line-height: 30px;
+}
+
+.steps {
+    display: grid;
+    width: 250px;
+    height: 250px;
+    border-radius: 45px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+    gap: 7px;
+}
+
+.create-steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 100px;
 }
