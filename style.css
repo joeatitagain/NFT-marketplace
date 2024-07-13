@@ -2,7 +2,6 @@ body {
     background-color: 
     #140014;
     font-family: "Poppins", sans-serif;
-    position: relative;
 }
 
 .nav-bar {
@@ -12,7 +11,7 @@ body {
     margin-top: 50px;
 }
 
-.nav-bar a {
+.nav-bar a, a {
     text-decoration: none;
     color: white;
     font-style: normal;
@@ -42,16 +41,57 @@ body {
 }
 
 .coins {
-    position: absolute;   
+    position: relative;
 }
 
-.acoin{
-    top: 100px;
-    left: 646px;
-    height: ;
-    width: auto;
+.acoin {
+    top: 10px;
+    left: 55%;
+    height: 120px;
+    width: 120px;
 }
 
-.coins > img {
-    width: 100%;
+.coin {
+    position: absolute;
+}
+
+.ethereum {
+    width: 250px;
+    top: 290px;
+    right: 10%;
+}
+
+.bitcoin {
+    top: 300px;
+    left: 9%;
+}
+
+.content-one {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content-one h1 { 
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 5px 150px;
+}
+
+.content-one p {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04rem;
+    padding: 0 300px 30px;
+}
+
+.bodyone {
+    margin: auto;
+    width: 10.5%;
+    text-align: center;
 }
