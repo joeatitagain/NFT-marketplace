@@ -306,6 +306,10 @@ body {
     align-items: center;
 }
 
+.arrow > img{
+    width: 20px;
+}
+
 .arrowleft {
     transform: rotate(180deg);
 }
@@ -553,4 +557,12 @@ input::placeholder {
     justify-content: space-between;
     align-items: center;
     padding: 0 30px 20px;
+}
+
+.footer-logo , .footer-logo>img {
+    width: 180px;
+}
+
+@media {max-width: 1;
+    
 }
