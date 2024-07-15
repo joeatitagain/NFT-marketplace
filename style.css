@@ -177,6 +177,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 30px 90px;
+    gap: 10px;
 }
 
 .image,.header {
@@ -332,7 +333,6 @@ body {
     top: 310px;
     left: 25px;
     font-size: 20px;
-    mix-blend-mode: screen;
 }
 
 .top-tags {
@@ -390,7 +390,7 @@ body {
     color: #2E1F32;
 }
 
-.two-buttons > .View {
+.View {
     border: 1px solid white;
     border-radius: 45px;
 }
@@ -563,6 +563,117 @@ input::placeholder {
     width: 180px;
 }
 
-@media {max-width: 1;
-    
+@media (max-width: 1080px){
+    body {
+        overflow-x: hidden;
+    }
+
+    .alpha-text > h3 {
+        font-size: 35px;
+    }
+
+    .alpha-text > h6 {
+        font-size: 12px;
+    }
+
+    .twobutton {
+        font-size: 80%;
+        padding: 15px 30px;
+    }
+
+    .newsletter-text > h3 {
+        font-size: 210%;
+    }
+
+    .newsletter-text > h6{
+        font-size: 100%;
+    }
+
+    .revolution > h6{
+        padding: 0 17%;
+    }
+}
+
+@media (max-width: 802px) {
+    .about-us {
+        display: none;
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+        margin: 20px 10px;
+    }
+
+    .logo, .logo > img {
+        width: 150px;
+        height: auto;
+    }
+
+    .head {
+        padding: 15px 40px;
+    }
+
+    .head > a {
+        font-size: 15px;
+    }
+
+    .acoin {
+        top: auto;
+        width: 100px;
+        height: auto;
+    }
+
+    .bitcoin {
+        left: 0.5%;
+        width: 180px;
+        top: 305px;
+    }
+
+    .ethereum {
+        right: 1%;
+        width: 180px;
+        top: 305px;
+    }
+
+    .content-one > h1 {
+        font-size: 150%;
+        line-height: normal;
+        padding: 0 17%;
+    }
+
+    .content-one > p {
+        padding: 5px 15%;
+    }
+
+    .bodyone {
+        padding: 15px auto;
+        width: 11%;
+    }
+
+    .bodyone > a {
+        font-size: 10px;
+    }
+
+    .NFT-count {
+        margin: 20px 100px;
+        gap: 3%;
+    }
+
+    .NFT-count h5 {
+        font-size: 70%;
+    }
+
+    .NFT-count p {
+        font-size: 150%;
+    }
+
+    .create-text > h2 {
+        font-size: 150%;
+        line-height: normal;
+    }
+
+    .create-text > h5 {
+        padding: 0 10%;
+        font-size: 100%;
+    }
 }
