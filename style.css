@@ -17,8 +17,17 @@ body {
     color: white;
     font-style: normal;
     font-weight: 300;
+   
 }
 
+.nav-bar a {
+    transition: transform 0.3s ease;
+}
+
+.nav-bar a:hover{
+    text-decoration: underline white;
+    transform: scale(1.1);
+}
 .about-us {
     display: flex;
     background-color: rgba(255, 255, 255, 0.094);
@@ -104,6 +113,10 @@ body {
     text-align: center;
 }
 
+.bodyone a:hover{
+    text-decoration: underline white;
+}
+
 .NFT-bar {
     position: relative;
     text-align: center;
@@ -170,7 +183,11 @@ body {
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 3fr;
     gap: 5px;
+    transition: transform 0.3s ease;
+}
 
+.steps:hover{
+    transform: scale(1.1);
 }
 
 .create-steps {
@@ -700,7 +717,35 @@ input::placeholder {
 
     .alpha-dull {
         flex-direction: column;
+        width: 330px;
     }
     
-    
+    .img-number > img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .img-number > p {
+        font-size: 10px;
+        top: 230px;
+    }
+
+    .alpha-dull-content{
+        padding: 0 10px 20px;
+    }
+
+    .alpha-text > h3 {
+        font-size: 150%;
+    }
+
+    .alpha-text > h6 {
+        font-size: 90%;
+    }
+
+    .arrows > div {
+        height: 40px;
+        width: 40px;
+    }
+
+
 }
