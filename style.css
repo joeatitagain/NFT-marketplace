@@ -676,4 +676,31 @@ input::placeholder {
         padding: 0 10%;
         font-size: 100%;
     }
+
+    .create-steps {
+        flex-direction: column;
+        padding: 20px 30%;
+        gap: 30px;
+    }
+
+    .steps {
+        width: 100%;
+        height: auto;
+    }
+
+    .revolution > h5 {
+        font-size: 150%;
+        line-height: normal;
+    }
+    .revolution > h6 {
+        font-size: 100%;
+        padding: 0 10%;
+        line-height: 20px;
+    }
+
+    .alpha-dull {
+        flex-direction: column;
+    }
+    
+    
 }
