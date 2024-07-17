@@ -5,6 +5,9 @@ body {
     overflow-x: hidden;
 }
 
+ *{
+    overflow-x: hidden;
+ }
 .nav-bar {
     display: flex;
     justify-content: space-around;
