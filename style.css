@@ -507,15 +507,16 @@ hr {
     position: relative;
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 500px;
 }
 
 .news-letter{
     position: absolute;
-    right: -15.7%;
+    right: 0;
+    margin-right: 5px;
     top: 50%;
     bottom: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-0%, -50%);
     height: 30%;
 }
 
@@ -612,6 +613,19 @@ input::placeholder {
 
     .revolution > h6{
         padding: 0 17%;
+    }
+
+    .newsletter{
+        height: auto;
+    }
+
+    .email-tag {
+        padding-bottom: 20px;
+    }
+
+    .news-letter {
+        padding: 15px 30px;
+        top: 40%;
     }
 }
 
@@ -790,17 +804,17 @@ input::placeholder {
 
     .email-tag{
         padding: 0 0 20px;
-        width: auto;
+        width: 300px;
     }
 
     #email {
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
 
     .news-letter {
-        top: 32px;
         right: 0;
+        margin-right: 5px;
     }
 
     .news-letter > a {
@@ -810,7 +824,7 @@ input::placeholder {
     }
 
     input::placeholder {
-        font-size: 15px;
+        font-size: 12px;
         padding-left: 20px;       
     }
 
@@ -989,9 +1003,27 @@ input::placeholder {
         font-size: 10px;
     }
 
-    .news-letter {
-        top: 50%;
-        bottom: 50%;
-        transform: translate(-30%, -70%);
+    .email-tag {
+        width: 250px;
+    }  
+
+    .footer-logo , .footer-logo > img {
+        width: 120px;
+    }
+
+    .summary-texts > h3 , .summary-texts > a {
+        font-size: 70%;
+    }
+
+    .summary-content {
+        gap: 15px;
+    }
+
+    footer {
+        font-size: 30%;
+    }
+
+    footer img {
+        width: 70px;
     }
 }
