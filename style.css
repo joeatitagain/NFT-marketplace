@@ -632,6 +632,11 @@ input::placeholder {
         padding: 15px 30px;
         top: 40%;
     }
+
+    .arrow > img{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 @media (max-width: 802px) {
@@ -772,6 +777,11 @@ input::placeholder {
     .arrows > div {
         height: 40px;
         width: 40px;
+    }
+
+    .arrow > img{
+        width: 20px;
+        height: 20px;
     }
 
     .selection > img{
