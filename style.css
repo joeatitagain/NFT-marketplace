@@ -598,8 +598,12 @@ input::placeholder {
         padding: 15px 30px;
     }
 
+    .newsletter-text {
+        height: auto;
+    }
+
     .newsletter-text > h3 {
-        font-size: 210%;
+        font-size: 200%;
     }
 
     .newsletter-text > h6{
@@ -831,5 +835,163 @@ input::placeholder {
     .summary-texts > a > p {
         font-size: 70%;
     }
+
+    .footer-footer {
+        font-size: 50%;
+        padding: 0 20px 15px;
+    }
+
+    footer img {
+        width: 100px;
+    }
 }
 
+@media (max-width: 481px) {
+    .head > a {
+        font-size: 10px;
+    }
+
+    .head {
+        padding: 10px 30px;
+    }
+
+    .logo > img {
+        width: 120px;
+    }
+
+    .acoin {
+        width: 70px;
+    }
+
+    .bitcoin ,.ethereum {
+        width: 130px;
+        top: 270px;
+    }
+
+    .content-one > h1 {
+        font-size: 120%;
+    }
+
+    .content-one > p {
+        font-size: 80%;
+        line-height: normal;
+    }
+
+
+
+    .bodyone {
+        width: 100px;
+        padding: 10px 5px;
+    }
+
+
+    .NFT-count {
+        margin: 20px 40px;
+    }
+
+    .NFT-count h5 {
+        font-weight: 300;
+        font-size: 50%;
+    }
+
+    .NFT-count p {
+        font-size: 20px;
+    }
+
+    .create-text h2 {
+        font-size: 120%;
+    }
+
+    .create-text h5 {
+        font-size: 65%;
+        line-height: 20px;
+    }
+
+    .create-steps {
+        padding: 10px 40px;
+    }
+
+    .image > img {
+        width: 20px;
+    }
+
+    .header {
+        font-size: 80%;
+    }
+
+    .revolution > h5 {
+        font-size: 120%;
+    }
+
+    .revolution > h6 {
+        font-size: 70%;
+    }
+
+    .img-number > img , .img-number {
+        width: 250px;
+        height: auto;
+    }
+
+    .img-number > p {
+       padding: 15px 40px;
+       top: 200px;
+       left: 30px;
+    }
+
+    .alpha-dull {
+        width: auto;
+        margin: 20px 30px;
+    }
+
+    .alpha-text > h6 {
+        font-size: 70%;
+    }
+
+    .selection > img {
+        width: 50px;
+    }
+
+    .FAQ-text > h3 {
+        font-size: 120%;
+    }
+
+    .FAQ-list {
+        margin: 20px 30px;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .stars {
+        display: none;
+    }
+
+    .newsletter-text {
+        text-align: left;
+        padding: 20px 25px;
+    }
+
+    .newsletter-text > h3 {
+        font-size: 120%;
+    }
+
+    .newsletter-text > h6 {
+        font-size: 70%;
+        margin: 0px ;
+    }
+
+    .email-tag , #email{
+        height: 50px;
+    }
+
+    input::placeholder {
+        font-size: 10px;
+    }
+
+    .news-letter {
+        top: 50%;
+        bottom: 50%;
+        transform: translate(-30%, -70%);
+    }
+}
