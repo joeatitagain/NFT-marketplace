@@ -705,6 +705,10 @@ input::placeholder {
         height: auto;
     }
 
+    .two-buttons {
+        justify-content: center;
+    }
+
     .revolution > h5 {
         font-size: 150%;
         line-height: normal;
@@ -731,7 +735,7 @@ input::placeholder {
     }
 
     .alpha-dull-content{
-        padding: 0 10px 20px;
+        padding: 0 20px 20px;
     }
 
     .alpha-text > h3 {
@@ -747,5 +751,85 @@ input::placeholder {
         width: 40px;
     }
 
+    .selection > img{
+        width: 70px;
+    }
 
+    .FAQ-text > h3 {
+        font-size: 150%;
+    }
+
+    .FAQ-text > h6 {
+        font-size: 90%;
+    }
+
+    .FAQ-list h6{
+        font-size: 79%;
+    }
+    
+    .newsletter{
+        height: auto;
+        margin: 100px 5.5%;
+    }
+
+    .star-one {
+        width: 50px;
+    }
+
+    .star-two {
+        width: 90px;
+    }
+
+    .newsletter-text {
+        padding: 20px 35px;
+    }
+
+    .email-tag{
+        padding: 0 0 20px;
+        width: auto;
+    }
+
+    #email {
+        width: 80%;
+        margin: auto;
+    }
+
+    .news-letter {
+        top: 32px;
+        right: 0;
+    }
+
+    .news-letter > a {
+        font-size: 70%;
+        text-align: left;
+        font-weight: 300;
+    }
+
+    input::placeholder {
+        font-size: 15px;
+        padding-left: 20px;       
+    }
+
+    .summary {
+        margin: 100px 5.5%;
+        width: 85%;
+    }
+
+    .summary-footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .summary-texts {
+        gap: 30px;
+    }
+
+    .summary-text > h3 {
+        font-size: 60%;
+    }
+
+    .summary-texts > a > p {
+        font-size: 70%;
+    }
 }
+
