@@ -326,6 +326,7 @@ body {
 
 .arrow > img{
     width: 20px;
+    height: auto;
 }
 
 .arrowleft {
@@ -1009,6 +1010,7 @@ input::placeholder {
 
     .footer-logo , .footer-logo > img {
         width: 120px;
+        height: auto;
     }
 
     .summary-texts > h3 , .summary-texts > a {
