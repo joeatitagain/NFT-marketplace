@@ -672,13 +672,13 @@ input::placeholder {
     .bitcoin {
         left: 0.5%;
         width: 180px;
-        top: 305px;
+        top: 200px;
     }
 
     .ethereum {
         right: 1%;
         width: 180px;
-        top: 305px;
+        top: 200px;
     }
 
     .content-one > h1 {
@@ -890,7 +890,6 @@ input::placeholder {
 
     .bitcoin ,.ethereum {
         width: 130px;
-        top: 270px;
     }
 
     .content-one > h1 {
