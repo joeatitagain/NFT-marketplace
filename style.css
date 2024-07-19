@@ -869,6 +869,10 @@ input::placeholder {
     footer img {
         width: 100px;
     }
+
+    .header {
+        text-align: left;
+    }
 }
 
 @media (max-width: 481px) {
